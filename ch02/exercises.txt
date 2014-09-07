@@ -1,0 +1,9 @@
+1.
+    Prelude> :type False
+    False :: Bool
+    Prelude> :type (["foo", "bar"], 'a')
+    (["foo", "bar"], 'a') :: ([[Char]], Char)
+    Prelude> :type [(True, []), (False, [['a']])]
+    [(True, []), (False, [['a']])] :: [(Bool, [[Char]])]
+
+
