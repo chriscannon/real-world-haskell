@@ -6,4 +6,10 @@
     Prelude> :type [(True, []), (False, [['a']])]
     [(True, []), (False, [['a']])] :: [(Bool, [[Char]])]
 
+2. The function takes as input a list of any type and returns a single element
+of the same type. The function cannot return a list or return and element that
+was not present in the original list. It also cannot return an empty list.
 
+3. If a list is too short the code throws an exception because head cannot
+grab the first element from an empty list. I assume this is acceptable because
+that is how head works.
